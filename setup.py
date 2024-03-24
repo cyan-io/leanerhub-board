@@ -9,7 +9,7 @@ with open("requirements.txt", encoding="utf-8") as f:
 
 setup(
     name="learner-board",
-    version="v1.0.0",
+    version="1.0.0",
     author="Cyan@https://github.com/cyan-io",
     author_email="cyan-io@outlook.com",
     url="https://github.com/cyan-io/learner-board",

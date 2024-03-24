@@ -9,7 +9,7 @@ with open("requirements.txt", encoding="utf-8") as f:
 
 setup(
     name="learner-board",
-    version="1.0.0",
+    version="1.0.1",
     author="Cyan@https://github.com/cyan-io",
     author_email="cyan-io@outlook.com",
     url="https://github.com/cyan-io/learner-board",
@@ -19,8 +19,8 @@ setup(
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "learnerboard = board:main",
-            "lboard = board:main",
+            "learnerboard = src.board:main",
+            "lboard = src.board:main",
         ]
     },
     install_requires=install_requires,

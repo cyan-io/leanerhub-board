@@ -34,13 +34,13 @@
 
 `✔` 加精内容
 
-`+n` +n已解决且未加精的问题数量 
+`+n` +n已解决且未加精的问题数量
 
 
 ## INSTALL
 
 ```shell
-pip install exif-frame -i https://pypi.org/simple
+pip install learner-board -i https://pypi.org/simple
 ```
 
 ## USAGE
